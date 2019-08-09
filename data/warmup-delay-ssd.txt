@@ -1,0 +1,40 @@
+openwhisk/action-php-v7.3:nightly 1051
+openwhisk/java8action:nightly 1061
+openwhisk/python3action:nightly 1043
+openwhisk/action-dotnet-v2.2:nightly 1073
+openwhisk/action-ruby-v2.5:nightly 1040
+openwhisk/action-swift-v4.2:nightly 1073
+openwhisk/actionloop-golang-v1.11:nightly 1043
+-----------------------------
+openwhisk/action-php-v7.3:nightly 1060
+openwhisk/java8action:nightly 1049
+openwhisk/python3action:nightly 1065
+openwhisk/action-dotnet-v2.2:nightly 1081
+openwhisk/action-ruby-v2.5:nightly 1058
+openwhisk/action-swift-v4.2:nightly 1054
+openwhisk/actionloop-golang-v1.11:nightly 1039
+-----------------------------
+openwhisk/action-php-v7.3:nightly 1045
+openwhisk/java8action:nightly 1041
+openwhisk/python3action:nightly 1051
+openwhisk/action-dotnet-v2.2:nightly 1092
+openwhisk/action-ruby-v2.5:nightly 1056
+openwhisk/action-swift-v4.2:nightly 1014
+openwhisk/actionloop-golang-v1.11:nightly 1038
+-----------------------------
+openwhisk/action-php-v7.3:nightly 1042
+openwhisk/java8action:nightly 1083
+openwhisk/python3action:nightly 1028
+openwhisk/action-dotnet-v2.2:nightly 1054
+openwhisk/action-ruby-v2.5:nightly 1038
+openwhisk/action-swift-v4.2:nightly 1062
+openwhisk/actionloop-golang-v1.11:nightly 1033
+-----------------------------
+openwhisk/action-php-v7.3:nightly 1039
+openwhisk/java8action:nightly 1048
+openwhisk/python3action:nightly 1058
+openwhisk/action-dotnet-v2.2:nightly 1022
+openwhisk/action-ruby-v2.5:nightly 1020
+openwhisk/action-swift-v4.2:nightly 1003
+openwhisk/actionloop-golang-v1.11:nightly 1060
+-----------------------------
