@@ -4,7 +4,16 @@
 # https://stackoverflow.com/questions/37744961/docker-run-vs-create/37745900
 # Technically, docker run = docker create + docker start
 
-outFile="init-delay.txt"
+# outFile="init-delay-ssd.txt"
+outFile=$1
+# chek whether output file is provided from command line
+if [ "$outFile" = "" ]; then
+  echo "You need to give the output file as the parameter"
+  exit 0
+else
+  echo "output file: $outFile"
+fi
+
 # sleep time between consecutive container tests
 sleepTime=10
 

@@ -5,7 +5,16 @@
 # it includes container startup + container initialization for that language
 # this is equivalent to warming up a container
 
-outFile="warmup-delay.txt"
+# outFile="warmup-delay-ssd.txt"
+outFile=$1
+# chek whether output file is provided from command line
+if [ "$outFile" = "" ]; then
+  echo "You need to give the output file as the parameter"
+  exit 0
+else
+  echo "output file: $outFile"
+fi
+
 # sleep time between consecutive container tests
 sleepTime=10
 
