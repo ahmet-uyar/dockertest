@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# command line parameters 
+# command line parameters
 image=$1
 outFile=$2
 contIdFile=$3
@@ -15,7 +15,7 @@ docker start $contId
 end2=$(date +%s%3N)
 delay2=$((end2-end))
 
-echo "$index $image $delay $delay2" >> $outFile
+echo "$index $image $delay $delay2 $start $end $end2" >> $outFile
 echo $contId >> $contIdFile
 
 echo "Done with the container: $contId"

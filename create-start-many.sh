@@ -4,7 +4,6 @@
 # https://stackoverflow.com/questions/37744961/docker-run-vs-create/37745900
 # Technically, docker run = docker create + docker start
 
-# outFile="init-delay-ssd.txt"
 outFile=$1
 contIdFile="container-ids.txt"
 
